@@ -1,4 +1,4 @@
-![alt text](https://github.com/sagarchamp007/RoboProgram/blob/master/flow.gif?raw=true)
+![alt text](https://github.com/sagarchamp007/RoboProgram/blob/master/images/flow.gif?raw=true)
 
 
 
