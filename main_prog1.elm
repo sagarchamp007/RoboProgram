@@ -176,7 +176,7 @@ getStatus (code) status initInfo grid prog =
                                             in List.indexedMap (\ind st-> {st| robo_Index = ind}) init_Status
                                    _  ->
                                        case code of
-                                          40 ->
+                                          100 ->
                                            let latestInfo = Maybe.withDefault initInfo<|ListE.last status
                                            in List.drop 1 <|List.scanl (\p_info  l_info-> (callupdateGrid l_info p_info)) latestInfo status 
                                           _ -> status
@@ -222,7 +222,7 @@ port new_status =
             let
               initialGrid = Signal.map (init_grid) config.signal
               initInfo    =  Signal.map2 (init_info) initialGrid parse_out.signal
-              pressed = presses
+              pressed =  presses
               all_signal = SignalE.zip4 parse_out.signal initialGrid pressed initInfo
               all_state_ls =  Signal.foldp (\(prog,grid,code,initInfo) status -> getStatus code status initInfo grid prog) [] all_signal
               concatRoboMsgs = Signal.map (\x-> List.map .msg x) all_state_ls|> Signal.map (\x-> String.concat x)
