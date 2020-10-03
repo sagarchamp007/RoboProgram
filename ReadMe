@@ -64,5 +64,5 @@ Instructions For using app--
 - Try To run it on Firefox.
 - Program is given as input in text-area tagged "input code here".
 - SUBMIT button is clicked to check for errors if any in the input code.
-- KEYBOARD DOWN ARROW KEY is used to view line by line execution of program on grid.
+- KEEYBOARD D KEY is used to view line by line execution of program on grid.
 - Debugging Information for All Robots is Shown in text area tagged "debug info here".
