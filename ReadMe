@@ -1,3 +1,9 @@
+![alt text](https://github.com/sagarchamp007/RoboProgram/blob/master/ezgif.com-resize.gif?raw=true)
+
+
+
+
+
 PREREQUISITS--
 -- The ROBOT_CONFIGURATION file is fetched from url "https://raw.githubusercontent.com/sagarchamp007/elm-stuff/master/conf.json" using http get requests in main_prog1.elm
 ______________________________________________
