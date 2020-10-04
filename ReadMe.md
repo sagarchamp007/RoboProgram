@@ -72,7 +72,6 @@ elm-make main_prog1.elm --output=<file_name>.html
   ```
 
 #### Instructions For using app
-- Try To run it on Firefox.
 - Program is given as input in text-area tagged "input code here".
 - `SUBMIT` button is clicked to check for errors if any in the input code.
 - `D` keyboard key is used to view line by line execution of program on grid.
